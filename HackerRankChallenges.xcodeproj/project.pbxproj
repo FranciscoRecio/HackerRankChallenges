@@ -13,6 +13,7 @@
 		847171842044BE9F00650DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847171832044BE9F00650DDE /* Assets.xcassets */; };
 		847171872044BE9F00650DDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847171852044BE9F00650DDE /* LaunchScreen.storyboard */; };
 		847171922044BE9F00650DDE /* HackerRankChallengesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847171912044BE9F00650DDE /* HackerRankChallengesTests.swift */; };
+		847171A12044C01D00650DDE /* BetweenTwoSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847171A02044C01D00650DDE /* BetweenTwoSets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8471718D2044BE9F00650DDE /* HackerRankChallengesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerRankChallengesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		847171912044BE9F00650DDE /* HackerRankChallengesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerRankChallengesTests.swift; sourceTree = "<group>"; };
 		847171932044BE9F00650DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847171A02044C01D00650DDE /* BetweenTwoSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,11 @@
 		8471717B2044BE9F00650DDE /* HackerRankChallenges */ = {
 			isa = PBXGroup;
 			children = (
-				8471717C2044BE9F00650DDE /* AppDelegate.swift */,
-				8471717E2044BE9F00650DDE /* ViewController.swift */,
-				847171802044BE9F00650DDE /* Main.storyboard */,
+				8471719F2044BFC000650DDE /* Challenges */,
+				8471719E2044BFB500650DDE /* Model */,
+				8471719D2044BFA200650DDE /* ViewController */,
+				8471719C2044BEC400650DDE /* View */,
 				847171832044BE9F00650DDE /* Assets.xcassets */,
-				847171852044BE9F00650DDE /* LaunchScreen.storyboard */,
 				847171882044BE9F00650DDE /* Info.plist */,
 			);
 			path = HackerRankChallenges;
@@ -94,6 +96,39 @@
 				847171932044BE9F00650DDE /* Info.plist */,
 			);
 			path = HackerRankChallengesTests;
+			sourceTree = "<group>";
+		};
+		8471719C2044BEC400650DDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				847171852044BE9F00650DDE /* LaunchScreen.storyboard */,
+				847171802044BE9F00650DDE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8471719D2044BFA200650DDE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8471717E2044BE9F00650DDE /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8471719E2044BFB500650DDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8471717C2044BE9F00650DDE /* AppDelegate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8471719F2044BFC000650DDE /* Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				847171A02044C01D00650DDE /* BetweenTwoSets.swift */,
+			);
+			path = Challenges;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +236,7 @@
 			files = (
 				8471717F2044BE9F00650DDE /* ViewController.swift in Sources */,
 				8471717D2044BE9F00650DDE /* AppDelegate.swift in Sources */,
+				847171A12044C01D00650DDE /* BetweenTwoSets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

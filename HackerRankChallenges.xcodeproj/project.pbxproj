@@ -16,6 +16,7 @@
 		847171A12044C01D00650DDE /* BetweenTwoSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847171A02044C01D00650DDE /* BetweenTwoSets.swift */; };
 		84C3B07F2045CA22009A3E0C /* BreakingTheRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3B07E2045CA22009A3E0C /* BreakingTheRecords.swift */; };
 		84C3B0812045CCF3009A3E0C /* BirthdayChocolate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3B0802045CCF3009A3E0C /* BirthdayChocolate.swift */; };
+		84C3B0832045D179009A3E0C /* DivisibleSumPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3B0822045D179009A3E0C /* DivisibleSumPairs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		847171A02044C01D00650DDE /* BetweenTwoSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSets.swift; sourceTree = "<group>"; };
 		84C3B07E2045CA22009A3E0C /* BreakingTheRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingTheRecords.swift; sourceTree = "<group>"; };
 		84C3B0802045CCF3009A3E0C /* BirthdayChocolate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayChocolate.swift; sourceTree = "<group>"; };
+		84C3B0822045D179009A3E0C /* DivisibleSumPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisibleSumPairs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				847171A02044C01D00650DDE /* BetweenTwoSets.swift */,
 				84C3B07E2045CA22009A3E0C /* BreakingTheRecords.swift */,
 				84C3B0802045CCF3009A3E0C /* BirthdayChocolate.swift */,
+				84C3B0822045D179009A3E0C /* DivisibleSumPairs.swift */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				8471717D2044BE9F00650DDE /* AppDelegate.swift in Sources */,
 				84C3B0812045CCF3009A3E0C /* BirthdayChocolate.swift in Sources */,
 				847171A12044C01D00650DDE /* BetweenTwoSets.swift in Sources */,
+				84C3B0832045D179009A3E0C /* DivisibleSumPairs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
